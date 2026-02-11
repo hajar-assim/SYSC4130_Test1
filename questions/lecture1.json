@@ -6,75 +6,75 @@
       "question": "According to the ACM definition, HCI is concerned with the design, evaluation, and implementation of interactive computing systems for human use and with what else?",
       "options": [
         "The development of programming languages",
+        "The optimization of hardware performance",
         "The study of major phenomena surrounding them",
-        "The creation of artificial intelligence systems",
-        "The optimization of hardware performance"
+        "The creation of artificial intelligence systems"
       ],
-      "correct_answer": 1,
+      "correct_answer": 2,
       "explanation": "The ACM defines HCI as 'a discipline that is concerned with the design, evaluation, and implementation of interactive computing systems for human use and with the study of major phenomena surrounding them' (Hewett et al., 1992). This emphasizes that HCI goes beyond just building systems to understanding the broader context of their use."
     },
     {
       "question": "Which of the following statements about HCI is correct?",
       "options": [
-        "HCI is the same as UI design",
         "HCI is not the same as UI design",
+        "HCI is the same as UI design",
         "HCI only focuses on visual interface elements",
         "HCI is a sub-discipline of graphic design"
       ],
-      "correct_answer": 1,
+      "correct_answer": 0,
       "explanation": "The lecture explicitly states that 'HCI != UI design.' HCI is a much broader discipline that encompasses the design, evaluation, and implementation of interactive systems, along with studying user behavior and phenomena, whereas UI design focuses specifically on the visual and interactive elements of an interface."
     },
     {
       "question": "Which of the following is NOT listed as a discipline that contributes to the multidisciplinary field of HCI/Interaction Design?",
       "options": [
-        "Psychology and Cognitive Science",
         "Mechanical Engineering",
-        "Social Sciences",
-        "Human Factors"
+        "Psychology and Cognitive Science",
+        "Human Factors",
+        "Social Sciences"
       ],
-      "correct_answer": 1,
+      "correct_answer": 0,
       "explanation": "The lecture lists Psychology, Cognitive Science, Engineering, Language, Design, Computer Science, Social Sciences, and Human Factors as contributing disciplines. Mechanical Engineering is not specifically listed as a contributing field to HCI, though general Engineering is included."
     },
     {
       "question": "When designing interactive products, which factors must be taken into account?",
       "options": [
-        "Only the technical specifications of the hardware",
         "Who the users are, what activities are being carried out, and where interaction takes place",
         "Only the visual aesthetics of the interface",
-        "The programming language and database structure"
+        "The programming language and database structure",
+        "Only the technical specifications of the hardware"
       ],
-      "correct_answer": 1,
+      "correct_answer": 0,
       "explanation": "The lecture states that when designing, you need to take into account who the users are, what activities are being carried out, and where the interaction is taking place. These factors help optimize the interactions users have with a product so they match users' activities and needs."
     },
     {
       "question": "According to Nielsen and Norman (2014), User Experience (UX) encompasses:",
       "options": [
-        "Only the visual design of a website",
         "All aspects of the end-user's interaction with the company, its services, and its products",
         "Only the functionality of a software application",
-        "The technical backend architecture of a system"
+        "The technical backend architecture of a system",
+        "Only the visual design of a website"
       ],
-      "correct_answer": 1,
+      "correct_answer": 0,
       "explanation": "Nielsen and Norman (2014) define UX as encompassing 'all aspects of the end-user's interaction with the company, its services, and its products.' This broad definition highlights that UX extends beyond just the product interface to include every touchpoint a user has with an organization."
     },
     {
       "question": "Which of the following is a key insight about User Experience design?",
       "options": [
         "You can directly design a user experience",
-        "You cannot design a user experience, only design for a user experience",
         "User experience is only about visual aesthetics",
+        "You cannot design a user experience, only design for a user experience",
         "User experience is irrelevant to physical products"
       ],
-      "correct_answer": 1,
-      "explanation": "The lecture emphasizes that you 'cannot design a user experience — only can design for a user experience.' This means designers can create conditions that facilitate positive experiences (through usability, functionality, aesthetics, etc.) but cannot guarantee how each individual user will ultimately feel."
+      "correct_answer": 2,
+      "explanation": "The lecture emphasizes that you 'cannot design a user experience \u2014 only can design for a user experience.' This means designers can create conditions that facilitate positive experiences (through usability, functionality, aesthetics, etc.) but cannot guarantee how each individual user will ultimately feel."
     },
     {
       "question": "What is the difference between accessibility and inclusiveness as discussed in the lecture?",
       "options": [
-        "They are the same concept with different names",
-        "Accessibility addresses disabilities while inclusiveness accommodates the widest possible number of people",
         "Inclusiveness only addresses physical disabilities",
-        "Accessibility is broader than inclusiveness"
+        "Accessibility addresses disabilities while inclusiveness accommodates the widest possible number of people",
+        "Accessibility is broader than inclusiveness",
+        "They are the same concept with different names"
       ],
       "correct_answer": 1,
       "explanation": "Accessibility specifically addresses discriminatory issues related to people with disabilities, focusing on making products accessible to as many people as possible. Inclusiveness is broader, addressing diversity factors including accessibility, education, computer literacy, socioeconomic status, age, and language."
@@ -82,10 +82,10 @@
     {
       "question": "According to the Disability Act 2005, Universal Design aims to create environments that can be used:",
       "options": [
+        "Only by trained professionals in controlled settings",
         "Only by people with specific disabilities using assistive devices",
-        "By the majority of the population in standard conditions",
         "By any persons of any age or ability without the need for adaptation or specialized solutions",
-        "Only by trained professionals in controlled settings"
+        "By the majority of the population in standard conditions"
       ],
       "correct_answer": 2,
       "explanation": "The Disability Act 2005 defines Universal Design as the design of environments that may be accessed, understood, and used to the greatest possible extent, in the most independent and natural manner possible, without the need for adaptation, modification, assistive devices, or specialized solutions, by any persons of any age or ability."
@@ -94,104 +94,119 @@
       "question": "Which Universal Design principle states that 'the design accommodates a wide range of individual preferences and abilities'?",
       "options": [
         "Equitable Use",
-        "Flexibility in Use",
         "Simple and Intuitive Use",
+        "Flexibility in Use",
         "Tolerance for Error"
       ],
-      "correct_answer": 1,
+      "correct_answer": 2,
       "explanation": "Flexibility in Use is the principle that states the design should accommodate a wide range of individual preferences and abilities. This includes providing choice in methods of use, accommodating right- or left-handed access, and providing adaptability to the user's pace. Equitable Use focuses on being useful to people with diverse abilities, which is a related but distinct concept."
     },
     {
       "question": "The Universal Design principle of 'Perceptible Information' recommends using different modes for presenting essential information. Which of the following is an example of this?",
       "options": [
+        "Using only color to differentiate between categories",
         "Using only text to convey all information",
         "Using pictorial, verbal, and tactile modes for redundant presentation",
-        "Reducing the amount of information displayed to users",
-        "Using only color to differentiate between categories"
+        "Reducing the amount of information displayed to users"
       ],
-      "correct_answer": 1,
+      "correct_answer": 2,
       "explanation": "Perceptible Information recommends using different modes (pictorial, verbal, tactile) for redundant presentation of essential information. This ensures that information is communicated effectively regardless of ambient conditions or the user's sensory abilities. Using only one mode (text or color alone) would fail to accommodate users with different sensory capabilities."
     },
     {
       "question": "Which usability goal refers to 'how good a product is at doing what it is supposed to do'?",
-      "options": ["Efficiency", "Effectiveness", "Utility", "Learnability"],
-      "correct_answer": 1,
+      "options": [
+        "Effectiveness",
+        "Utility",
+        "Learnability",
+        "Efficiency"
+      ],
+      "correct_answer": 0,
       "explanation": "Effectiveness is defined as how good a product is at doing what it is supposed to do. Efficiency refers to how a product supports users in carrying out their tasks. Utility refers to whether the product provides the right kind of functionality. Learnability refers to how easy a system is to learn."
     },
     {
       "question": "Which usability goal is defined as 'the extent to which the product provides the right kind of functionality so that users can do what they need or want to do'?",
-      "options": ["Safety", "Memorability", "Utility", "Efficiency"],
+      "options": [
+        "Efficiency",
+        "Safety",
+        "Utility",
+        "Memorability"
+      ],
       "correct_answer": 2,
       "explanation": "Utility is defined as the extent to which the product provides the right kind of functionality so that users can do what they need or want to do. Safety involves protecting users from dangerous conditions, memorability is about remembering how to use a product, and efficiency is about how well a product supports task completion."
     },
     {
       "question": "Which design principle refers to 'an attribute of an object that allows people to know how to use it'?",
-      "options": ["Visibility", "Consistency", "Affordance", "Constraints"],
-      "correct_answer": 2,
+      "options": [
+        "Constraints",
+        "Consistency",
+        "Visibility",
+        "Affordance"
+      ],
+      "correct_answer": 3,
       "explanation": "Affordance is an attribute of an object that allows people to know how to use it. The lecture distinguishes between real affordance (physical) and perceived affordance (virtual). For example, a door handle affords pulling, while a flat plate affords pushing. Visibility relates to seeing available operations, consistency to similar elements behaving similarly, and constraints to restricting possible interactions."
     },
     {
       "question": "What are the five design principles discussed in the lecture?",
       "options": [
         "Color, Typography, Layout, Spacing, Animation",
-        "Visibility, Feedback, Constraints, Consistency, Affordance",
+        "Navigation, Content, Structure, Presentation, Interaction",
         "Simplicity, Clarity, Efficiency, Flexibility, Robustness",
-        "Navigation, Content, Structure, Presentation, Interaction"
+        "Visibility, Feedback, Constraints, Consistency, Affordance"
       ],
-      "correct_answer": 1,
-      "explanation": "The five design principles discussed in the lecture are Visibility, Feedback, Constraints, Consistency, and Affordance. These are described as generalizable abstractions for thinking about different aspects of design — the do's and don'ts of design."
+      "correct_answer": 3,
+      "explanation": "The five design principles discussed in the lecture are Visibility, Feedback, Constraints, Consistency, and Affordance. These are described as generalizable abstractions for thinking about different aspects of design \u2014 the do's and don'ts of design."
     },
     {
       "question": "What does the design principle of 'Constraints' achieve in interface design?",
       "options": [
-        "It makes the interface look visually appealing",
         "It restricts the range of interactions at a given time to reduce errors and help users focus",
+        "It increases the total number of available features",
         "It ensures the interface loads faster",
-        "It increases the total number of available features"
+        "It makes the interface look visually appealing"
       ],
-      "correct_answer": 1,
+      "correct_answer": 0,
       "explanation": "Constraints restrict the range of interactions at a given time, allowing users to focus on applicable actions and reducing errors. Examples include greying out unavailable menu items or using date pickers instead of free-text date entry. This prevents users from making invalid selections."
     },
     {
       "question": "The slide showing the date '5/10/2005' with the question 'What's the date?' illustrates which important HCI concept?",
       "options": [
         "The importance of system performance",
+        "The superiority of digital calendars over analog ones",
         "Cultural differences in date format interpretation",
-        "The need for faster processing speeds",
-        "The superiority of digital calendars over analog ones"
+        "The need for faster processing speeds"
       ],
-      "correct_answer": 1,
-      "explanation": "The date 5/10/2005 can be interpreted as May 10th (US format) or October 5th (European/international format). This illustrates the importance of understanding cultural differences when designing interfaces — a key aspect of understanding users. Designers must be aware that the same information can be interpreted differently across cultures."
+      "correct_answer": 2,
+      "explanation": "The date 5/10/2005 can be interpreted as May 10th (US format) or October 5th (European/international format). This illustrates the importance of understanding cultural differences when designing interfaces \u2014 a key aspect of understanding users. Designers must be aware that the same information can be interpreted differently across cultures."
     },
     {
       "question": "The lecture mentions several real-world disasters as examples of why HCI matters. Which of the following was NOT mentioned?",
       "options": [
-        "Chernobyl nuclear disaster (1986)",
-        "Kegworth air disaster (1989)",
+        "NASA Mars Climate Orbiter (1999)",
         "Titanic sinking (1912)",
-        "NASA Mars Climate Orbiter (1999)"
+        "Kegworth air disaster (1989)",
+        "Chernobyl nuclear disaster (1986)"
       ],
-      "correct_answer": 2,
+      "correct_answer": 1,
       "explanation": "The lecture showed images of the Chernobyl nuclear power station disaster (1986), the Kegworth air disaster (1989), the Gimli Glider (1983), and the NASA Mars Climate Orbiter (1999) as examples of catastrophic failures related to human-computer interaction issues. The Titanic was not mentioned in this lecture."
     },
     {
       "question": "According to the lecture, what does the concept of 'triangulation' refer to in data gathering?",
       "options": [
-        "Using three researchers for every study",
         "Looking at data from more than one perspective",
+        "Using three researchers for every study",
         "Conducting studies in three different locations",
         "Collecting data from exactly three participants"
       ],
-      "correct_answer": 1,
+      "correct_answer": 0,
       "explanation": "Triangulation in data gathering means looking at data from more than one perspective. This technique helps ensure the validity and reliability of research findings by using multiple methods, sources, or viewpoints to study the same phenomenon, reducing bias from any single approach."
     },
     {
       "question": "Which Universal Design principle focuses on minimizing hazards and the adverse consequences of accidental or unintended actions?",
       "options": [
-        "Low Physical Effort",
+        "Simple and Intuitive Use",
         "Equitable Use",
         "Tolerance for Error",
-        "Simple and Intuitive Use"
+        "Low Physical Effort"
       ],
       "correct_answer": 2,
       "explanation": "Tolerance for Error is the principle that focuses on minimizing hazards and adverse consequences of accidental or unintended actions. It includes arranging elements to minimize errors, providing warnings, and providing fail-safe features. Low Physical Effort focuses on minimizing fatigue, while Simple and Intuitive Use focuses on ease of understanding."
@@ -199,8 +214,8 @@
     {
       "question": "A navigation app showing multiple turn arrows at a complex intersection but not clearly indicating which one to take is an example of a failure in which design principle?",
       "options": [
-        "Affordance",
         "Consistency",
+        "Affordance",
         "Visibility and Feedback",
         "Constraints"
       ],
