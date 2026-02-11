@@ -1,0 +1,320 @@
+{
+  "lecture": "Lecture 2 - Data Gathering",
+  "topic": "Usability Inspection Methods, Heuristic Evaluation, Cognitive Walkthrough, Analytics, and Fitts' Law",
+  "questions": [
+    {
+      "question": "What are the two main usability inspection methods discussed in the lecture?",
+      "options": [
+        "User testing and surveys",
+        "Heuristic evaluation and cognitive walkthrough",
+        "A/B testing and analytics",
+        "Focus groups and interviews"
+      ],
+      "correct_answer": 1,
+      "explanation": "The lecture identifies heuristic evaluation and cognitive walkthrough as the two main usability inspection methods. These are expert-based methods where experts use their knowledge of users and technology to review software usability, and are considered 'discounted testing' because they don't require end users."
+    },
+    {
+      "question": "Why are usability inspection methods referred to as 'discounted testing'?",
+      "options": [
+        "They are cheaper than buying software licenses",
+        "They use experts instead of real users, making them faster and less resource-intensive",
+        "They only test discounted products",
+        "They require a large discount on participant compensation"
+      ],
+      "correct_answer": 1,
+      "explanation": "Usability inspection methods are called 'discounted testing' because they rely on experts using their knowledge of users and technology to review software usability, rather than recruiting and testing with actual end users. This makes them faster and less expensive to conduct while still identifying usability problems."
+    },
+    {
+      "question": "Who developed the heuristic evaluation method, and when?",
+      "options": [
+        "Don Norman in the late 1980s",
+        "Jacob Nielsen in the early 1990s",
+        "Ben Shneiderman in the mid-1990s",
+        "Alan Cooper in the early 2000s"
+      ],
+      "correct_answer": 1,
+      "explanation": "Heuristic evaluation was developed by Jacob Nielsen in the early 1990s. It was based on heuristics distilled from an empirical analysis of 249 usability problems, making it one of the most widely used usability inspection methods."
+    },
+    {
+      "question": "How many usability problems were empirically analyzed to develop Nielsen's heuristics?",
+      "options": ["100", "175", "249", "500"],
+      "correct_answer": 2,
+      "explanation": "Nielsen's heuristics were based on an empirical analysis of 249 usability problems. This empirical foundation gives the heuristics strong validity as a framework for identifying common usability issues across different types of interfaces."
+    },
+    {
+      "question": "Which of the following is NOT one of Nielsen's 10 usability heuristics?",
+      "options": [
+        "Visibility of System Status",
+        "Match Between System and Real World",
+        "User Engagement and Gamification",
+        "Error Prevention"
+      ],
+      "correct_answer": 2,
+      "explanation": "User Engagement and Gamification is not one of Nielsen's heuristics. The 10 heuristics are: Visibility of System Status, Match Between System and Real World, User Control and Freedom, Consistency and Standards, Error Prevention, Recognition Rather Than Recall, Flexibility and Efficiency of Use, Aesthetic and Minimalist Design, Help Users Recognize/Diagnose/Recover From Errors, and Help and Documentation."
+    },
+    {
+      "question": "According to the 'Visibility of System Status' heuristic, what should a design always do?",
+      "options": [
+        "Display all possible menu options at once",
+        "Keep users informed about what is going on through appropriate feedback within a reasonable time",
+        "Show the system's source code to the user",
+        "Make the system status bar always visible at the top of the screen"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Visibility of System Status heuristic states that the design should always keep users informed about what is going on, through appropriate feedback within a reasonable amount of time. Examples include progress bars during downloads and visual indicators showing selected items."
+    },
+    {
+      "question": "The 'Match Between System and Real World' heuristic recommends that designs should:",
+      "options": [
+        "Use technical programming terminology for precision",
+        "Speak the users' language and follow real-world conventions",
+        "Replicate the physical world exactly in digital form",
+        "Always use icons instead of text"
+      ],
+      "correct_answer": 1,
+      "explanation": "This heuristic states that the design should speak the users' language, using words, phrases, and concepts familiar to the user rather than internal jargon. It should also follow real-world conventions, making information appear in a natural and logical order. The compass app example illustrates this by mimicking a real compass."
+    },
+    {
+      "question": "What does the 'User Control and Freedom' heuristic emphasize?",
+      "options": [
+        "Users should be restricted to prevent errors",
+        "Users need a clearly marked 'emergency exit' to leave unwanted actions easily",
+        "Users should have full administrative control over the system",
+        "Users should be free to modify the system's code"
+      ],
+      "correct_answer": 1,
+      "explanation": "The User Control and Freedom heuristic recognizes that users often perform actions by mistake and need a clearly marked 'emergency exit' to leave the unwanted action without having to go through an extended process. Examples include undo/redo functionality and back buttons."
+    },
+    {
+      "question": "What does the 'Consistency and Standards' heuristic require?",
+      "options": [
+        "Using unique design patterns for each page to keep users engaged",
+        "Users should not have to wonder whether different words, situations, or actions mean the same thing",
+        "All interfaces should look identical across all platforms",
+        "Following only internal company standards, not industry conventions"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Consistency and Standards heuristic states that users should not have to wonder whether different words, situations, or actions mean the same thing. Designs should follow platform and industry conventions. For example, using standard icons (like a trash can for delete), consistent terminology throughout the interface, and following established design patterns helps users leverage their existing knowledge."
+    },
+    {
+      "question": "According to the 'Error Prevention' heuristic, what is the best approach to handling errors?",
+      "options": [
+        "Write detailed error messages for every possible error",
+        "Prevent problems from occurring in the first place",
+        "Hide errors from users to avoid confusion",
+        "Allow users to ignore all error messages"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Error Prevention heuristic states that while good error messages are important, the best designs carefully prevent problems from occurring in the first place. This can be done by either eliminating error-prone conditions or checking for them and presenting users with a confirmation option before they commit to the action."
+    },
+    {
+      "question": "What does the 'Recognition Rather Than Recall' heuristic aim to achieve?",
+      "options": [
+        "Users should memorize all keyboard shortcuts",
+        "Minimize the user's memory load by making elements, actions, and options visible",
+        "Users should recall previous sessions' data",
+        "The system should recognize users via biometrics"
+      ],
+      "correct_answer": 1,
+      "explanation": "Recognition Rather Than Recall aims to minimize the user's memory load by making elements, actions, and options visible. Users should not have to remember information from one part of the interface to another. Information required to use the design should be visible or easily retrievable when needed, such as showing recent search history."
+    },
+    {
+      "question": "The 'Flexibility and Efficiency of Use' heuristic addresses the needs of which user groups?",
+      "options": [
+        "Only novice users",
+        "Only expert users",
+        "Both inexperienced and experienced users",
+        "Only system administrators"
+      ],
+      "correct_answer": 2,
+      "explanation": "This heuristic states that shortcuts — hidden from novice users — may speed up interaction for expert users, so the design can cater to both inexperienced and experienced users. It also recommends allowing users to tailor frequent actions, accommodating different levels of expertise."
+    },
+    {
+      "question": "According to the 'Aesthetic and Minimalist Design' heuristic, why should interfaces avoid irrelevant information?",
+      "options": [
+        "To reduce server load and improve performance",
+        "Every extra unit of information competes with relevant information and diminishes its relative visibility",
+        "To make the interface look more modern",
+        "To reduce the cost of content creation"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Aesthetic and Minimalist Design heuristic explains that interfaces should not contain irrelevant or rarely needed information because every extra unit of information competes with the relevant units and diminishes their relative visibility. Google's homepage is cited as an example of effective minimalist design."
+    },
+    {
+      "question": "According to Nielsen's heuristic on error messages, how should error messages be expressed?",
+      "options": [
+        "Using technical error codes for precision",
+        "In plain language, precisely indicating the problem and constructively suggesting a solution",
+        "As brief pop-ups that disappear automatically",
+        "In the system's programming language"
+      ],
+      "correct_answer": 1,
+      "explanation": "The 'Help Users Recognize, Diagnose, and Recover From Errors' heuristic states that error messages should be expressed in plain language (no error codes), precisely indicate the problem, and constructively suggest a solution. The lecture contrasts a good example ('The network connection is lost') with a bad one containing technical jargon ('WDGeneralNetworkError error 500')."
+    },
+    {
+      "question": "What is the purpose of the 'Help and Documentation' heuristic?",
+      "options": [
+        "Documentation should be comprehensive and replace the need for intuitive design",
+        "Systems should provide help information that is easy to search, focused on the user's task, and lists concrete steps",
+        "Help should only be available through external user manuals",
+        "Documentation is unnecessary if the interface is well-designed"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Help and Documentation heuristic recognizes that even though it's better if the system can be used without documentation, it may be necessary to provide help. Such help should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large. Examples include contextual help, tooltips, FAQs, and searchable knowledge bases."
+    },
+    {
+      "question": "How should a heuristic evaluation be conducted according to the lecture?",
+      "options": [
+        "All experts evaluate together in one session",
+        "A briefing session, then each expert works separately for 1-2 hours, followed by a debriefing session",
+        "One expert evaluates while others observe",
+        "Experts evaluate together with end users present"
+      ],
+      "correct_answer": 1,
+      "explanation": "The proper process involves three phases: a briefing session to tell experts what to do, an evaluation period of 1-2 hours where each expert works separately (taking one pass for general feel and a second pass for specific features), and a debriefing session where experts work together to prioritize problems."
+    },
+    {
+      "question": "In heuristic evaluation severity ratings, what does a rating of 4 (Usability catastrophe) mean?",
+      "options": [
+        "The issue is cosmetic and optional to fix",
+        "The issue should be given low priority",
+        "The issue is important and should be given high priority",
+        "It is imperative to fix this before the product can be released"
+      ],
+      "correct_answer": 3,
+      "explanation": "A severity rating of 4 (Usability catastrophe) means it is imperative to fix the issue before the product can be released. The scale ranges from 1 (cosmetic problem, fix if time allows) to 2 (minor, low priority) to 3 (major, high priority) to 4 (catastrophe, must fix before release)."
+    },
+    {
+      "question": "A usability problem rated as severity 2 (Minor usability problem) should be:",
+      "options": [
+        "Fixed immediately before any other work",
+        "Given low priority for fixing",
+        "Given high priority for fixing",
+        "Ignored entirely"
+      ],
+      "correct_answer": 1,
+      "explanation": "A severity rating of 2 (Minor usability problem) means fixing it should be given low priority. This is less urgent than a severity 3 (major problem, high priority) or severity 4 (catastrophe, must fix before release), but more important than a severity 1 (cosmetic, fix only if extra time is available)."
+    },
+    {
+      "question": "How many evaluators are recommended to find 75-80% of usability problems in a heuristic evaluation?",
+      "options": [
+        "1-2 evaluators",
+        "3 evaluators",
+        "5 evaluators",
+        "10 evaluators"
+      ],
+      "correct_answer": 2,
+      "explanation": "The lecture states that 5 evaluators are needed to find 75-80% of usability problems. However, the actual number of evaluators depends on the nature and context of the task problems. Using fewer evaluators may miss significant issues, while more may offer diminishing returns."
+    },
+    {
+      "question": "Which of the following is NOT listed as a caution or limitation of heuristic evaluations?",
+      "options": [
+        "Can be difficult to find experts",
+        "Many false alarms",
+        "Too expensive to conduct",
+        "Experts have biases"
+      ],
+      "correct_answer": 2,
+      "explanation": "The lecture lists four cautions with heuristic evaluations: it can be difficult to find experts, important problems will get missed, there are many false alarms, and experts have biases. Being too expensive is not listed; in fact, heuristic evaluation is described as 'discounted testing' because it is relatively inexpensive."
+    },
+    {
+      "question": "What is the primary focus of a cognitive walkthrough?",
+      "options": [
+        "Visual aesthetics of the interface",
+        "Ease of learning",
+        "System performance and speed",
+        "Code quality and architecture"
+      ],
+      "correct_answer": 1,
+      "explanation": "A cognitive walkthrough focuses on ease of learning. The designer presents an aspect of the design and usage scenarios, and experts walk through the design prototype guided by specific questions about whether users would be able to figure out how to use the system."
+    },
+    {
+      "question": "Which of the following is one of the three guiding questions in a cognitive walkthrough?",
+      "options": [
+        "Is the interface visually appealing?",
+        "Will the correct action be sufficiently evident to the user?",
+        "Does the system meet performance benchmarks?",
+        "Is the code well-documented?"
+      ],
+      "correct_answer": 1,
+      "explanation": "The three guiding questions in a cognitive walkthrough are: (1) Will the correct action be sufficiently evident to the user? (2) Will the user notice that the correct action is available? (3) Will the user associate and interpret the response from the action correctly? These questions focus on learnability and user understanding."
+    },
+    {
+      "question": "How does a pluralistic walkthrough differ from a standard cognitive walkthrough?",
+      "options": [
+        "It uses automated tools instead of human evaluators",
+        "It is performed by a carefully managed team that begins working separately then has a managed discussion",
+        "It only evaluates mobile applications",
+        "It does not require any experts"
+      ],
+      "correct_answer": 1,
+      "explanation": "A pluralistic walkthrough is performed by a carefully managed team. The panel of experts begins by working separately, followed by a managed discussion that leads to agreed decisions. This approach lends itself well to participatory design and can be adapted from basic cognitive walkthroughs."
+    },
+    {
+      "question": "According to Fitts' Law, what two factors determine the time to point to an object?",
+      "options": [
+        "Object color and brightness",
+        "Distance from the target and the object's size",
+        "Screen resolution and refresh rate",
+        "Number of objects on screen and their arrangement"
+      ],
+      "correct_answer": 1,
+      "explanation": "Fitts' Law states that the time to point to an object is a function of the distance from the target object and the object's size. The further away and the smaller the target, the more time it takes to reach it. This law is particularly useful for smaller screens where the time to locate an object is important."
+    },
+    {
+      "question": "Which of the following is NOT listed as a domain where domain-specific heuristics have been developed?",
+      "options": [
+        "Mobile devices",
+        "Virtual worlds",
+        "Autonomous vehicles",
+        "Security"
+      ],
+      "correct_answer": 2,
+      "explanation": "The lecture lists domain-specific heuristics for mobile devices, wearables, virtual worlds, social media, and security. Autonomous vehicles is not mentioned as a domain with specific heuristics in this lecture, though HCI principles certainly apply to vehicle interfaces."
+    },
+    {
+      "question": "A website displays an error message that reads 'Error 500: WDGeneralNetworkError'. Which Nielsen heuristic does this violate?",
+      "options": [
+        "Aesthetic and Minimalist Design",
+        "Consistency and Standards",
+        "Help Users Recognize, Diagnose, and Recover From Errors",
+        "Visibility of System Status"
+      ],
+      "correct_answer": 2,
+      "explanation": "This violates the 'Help Users Recognize, Diagnose, and Recover From Errors' heuristic, which states that error messages should be expressed in plain language (no error codes), precisely indicate the problem, and constructively suggest a solution. Showing 'Error 500: WDGeneralNetworkError' uses technical jargon that is meaningless to most users."
+    },
+    {
+      "question": "During a cognitive walkthrough, the expert is told about which of the following before beginning?",
+      "options": [
+        "The system's programming language and database schema",
+        "Assumptions about user population, context of use, and task details",
+        "The project budget and timeline",
+        "The marketing strategy for the product"
+      ],
+      "correct_answer": 1,
+      "explanation": "Before a cognitive walkthrough begins, the expert is told the assumptions about the user population, the context of use, and the task details. This information is essential for the expert to evaluate whether users would be able to successfully complete tasks using the design prototype."
+    },
+    {
+      "question": "A mobile app uses a shopping cart icon at the bottom right, but when tapped, it opens the user's profile instead. Which Nielsen heuristic does this violate?",
+      "options": [
+        "Visibility of System Status",
+        "Consistency and Standards",
+        "Flexibility and Efficiency of Use",
+        "Aesthetic and Minimalist Design"
+      ],
+      "correct_answer": 1,
+      "explanation": "This violates the Consistency and Standards heuristic. The shopping cart icon is a widely recognized standard symbol for viewing items to purchase. Users expect this icon to take them to their cart, not their profile. Using standard icons inconsistently forces users to relearn what symbols mean, creating confusion and errors."
+    },
+    {
+      "question": "An e-commerce website requires users to remember a 6-digit order number to track their shipment, with no option to look up orders by email or date. Which Nielsen heuristic does this violate?",
+      "options": [
+        "User Control and Freedom",
+        "Recognition Rather Than Recall",
+        "Match Between System and Real World",
+        "Error Prevention"
+      ],
+      "correct_answer": 1,
+      "explanation": "This violates the Recognition Rather Than Recall heuristic. Users should not be required to remember information like order numbers. The system should minimize memory load by allowing users to recognize orders through multiple means (email, date range, product name) or by providing easy access to order history where they can see and select orders visually."
+    }
+  ]
+}

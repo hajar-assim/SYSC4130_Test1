@@ -1,0 +1,216 @@
+{
+  "lecture": "Lecture 3 - Data Gathering",
+  "topic": "HCI Data Gathering Methods: Interviews, Surveys, Observation, Usability Testing, and Experiments",
+  "questions": [
+    {
+      "question": "Which type of interview is described as 'rich but not replicable'?",
+      "options": [
+        "Structured interview",
+        "Semi-structured interview",
+        "Unstructured interview",
+        "Focus group"
+      ],
+      "correct_answer": 2,
+      "explanation": "Unstructured interviews are not directed by a script, which allows for rich data collection. However, because they lack a predefined structure, they are difficult to replicate consistently across different sessions or interviewers."
+    },
+    {
+      "question": "What is the key advantage of a semi-structured interview?",
+      "options": [
+        "It is the fastest interview method to conduct",
+        "It provides a good balance between richness and replicability",
+        "It requires no preparation from the interviewer",
+        "It eliminates all interviewer bias"
+      ],
+      "correct_answer": 1,
+      "explanation": "Semi-structured interviews are guided by a script but allow the interviewer to explore interesting issues in more depth. This provides a good balance between the richness of unstructured interviews and the replicability of structured interviews."
+    },
+    {
+      "question": "Which of the following should be avoided when designing interview questions?",
+      "options": [
+        "Open questions",
+        "Short, clear questions",
+        "Leading questions that make assumptions",
+        "Questions relevant to the research topic"
+      ],
+      "correct_answer": 2,
+      "explanation": "Leading questions that make assumptions (e.g., 'Why do you like...?') should be avoided because they bias the interviewee's response. Other things to avoid include long questions, compound sentences, jargon, and unconscious biases such as gender stereotypes."
+    },
+    {
+      "question": "What is the correct order of phases when running an interview?",
+      "options": [
+        "Warm-up, Introduction, Main body, Closure",
+        "Introduction, Main body, Cool-off, Closure",
+        "Introduction, Warm-up, Main body, Cool-off, Closure",
+        "Warm-up, Main body, Cool-off, Introduction, Closure"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct sequence is: Introduction (explain goals, ethics, consent), Warm-up (easy non-threatening questions), Main body (questions in logical order), Cool-off period (easy questions to defuse tension), and Closure (thank interviewee, end recording)."
+    },
+    {
+      "question": "What are 'props' in the context of interviews?",
+      "options": [
+        "Statistical tools used to analyze interview data",
+        "Devices for prompting the interviewee, such as prototypes or scenarios",
+        "Recording equipment used during the interview",
+        "Written scripts that the interviewer must follow exactly"
+      ],
+      "correct_answer": 1,
+      "explanation": "Props are devices used to prompt the interviewee, such as prototypes or scenarios. They help with focus, visualization, constructive discussion, and opening more points to discuss during the interview."
+    },
+    {
+      "question": "What is a key advantage of closed questions in questionnaires?",
+      "options": [
+        "They provide richer qualitative data",
+        "They are easier to analyze",
+        "They allow respondents to express unique viewpoints",
+        "They eliminate the need for data cleaning"
+      ],
+      "correct_answer": 1,
+      "explanation": "Closed questions have predetermined answer formats, making them easier to analyze quantitatively compared to open questions. This is particularly beneficial when administering questionnaires to large populations."
+    },
+    {
+      "question": "A Likert scale is best described as a measurement of:",
+      "options": [
+        "Frequency of behavior",
+        "Agreement with a statement",
+        "Time to complete a task",
+        "Number of errors made"
+      ],
+      "correct_answer": 1,
+      "explanation": "A Likert scale measures the degree of agreement with a statement, typically ranging from 'Strongly disagree' to 'Strongly agree' (e.g., on a 1-5 scale). This is different from a semantic scale, which asks respondents to select their position between two opposing descriptors."
+    },
+    {
+      "question": "According to the lecture, what is generally considered a good response rate for questionnaires?",
+      "options": ["80%", "60%", "40%", "10%"],
+      "correct_answer": 2,
+      "explanation": "A 40% response rate is considered good for questionnaires, while 20% is often acceptable. Strategies to improve response rates include ensuring anonymity, good design, offering incentives, and following up with participants."
+    },
+    {
+      "question": "What is 'pilot testing' in the context of deploying an online questionnaire?",
+      "options": [
+        "Sending the survey to the entire target population first",
+        "Testing the survey with a group that will not be part of the actual survey to check clarity",
+        "Running the survey on multiple platforms simultaneously",
+        "Analyzing preliminary results before the survey closes"
+      ],
+      "correct_answer": 1,
+      "explanation": "Pilot testing involves testing the survey with a group that will not be part of the actual survey to check that the questions are clear and the survey behaves as expected. This is a critical step before recruiting actual participants."
+    },
+    {
+      "question": "Which is NOT a challenge mentioned for online questionnaires?",
+      "options": [
+        "Sampling is problematic if population size is unknown",
+        "Preventing individuals from responding more than once",
+        "Data cannot be collected in a database",
+        "Data cleaning is often needed"
+      ],
+      "correct_answer": 2,
+      "explanation": "Data CAN be collected in a database for analysis — this is actually listed as an advantage of online questionnaires. The challenges mentioned include unknown population size making sampling problematic and difficulty preventing multiple responses from the same individual."
+    },
+    {
+      "question": "In observation methods, what does the 'degree of participation' refer to?",
+      "options": [
+        "How many participants are being observed",
+        "Whether the observer is an insider or outsider",
+        "The length of the observation period",
+        "Whether the observation is recorded on video"
+      ],
+      "correct_answer": 1,
+      "explanation": "The degree of participation refers to how involved the observer is — ranging from a passive outsider who simply watches to an active insider participant. This is one of the structuring frameworks for observation methods."
+    },
+    {
+      "question": "Which of the following is an example of indirect observation?",
+      "options": [
+        "Watching users interact with a system in a lab",
+        "Conducting a field study at the user's workplace",
+        "Interaction logging and diary studies",
+        "Ethnographic observation in a natural setting"
+      ],
+      "correct_answer": 2,
+      "explanation": "Indirect observation tracks users' activities without directly watching them in real-time. Examples include diaries, interaction logging, and video/photographs collected remotely. Direct observation involves watching users either in the field or in controlled environments."
+    },
+    {
+      "question": "The simple framework for guiding observation consists of which three parts?",
+      "options": [
+        "What, When, Why",
+        "The person, The place, The thing",
+        "Input, Process, Output",
+        "Before, During, After"
+      ],
+      "correct_answer": 1,
+      "explanation": "The three easy-to-remember parts of the observation framework are: The person (Who?), The place (Where?), and The thing (What?). A more detailed framework by Robson (2014) is also referenced for more comprehensive observation planning."
+    },
+    {
+      "question": "In usability testing, which of the following is a quantitative performance measure?",
+      "options": [
+        "User satisfaction from an interview",
+        "Qualitative feedback about interface aesthetics",
+        "Number and type of errors per task",
+        "General impressions from focus groups"
+      ],
+      "correct_answer": 2,
+      "explanation": "Quantitative performance measures in usability testing include number of errors per task, time to complete a task, number of users successfully completing a task, and number of navigations to help. User satisfaction is typically measured separately through questionnaires and interviews."
+    },
+    {
+      "question": "How many users are typically selected for usability testing?",
+      "options": ["1-2 users", "5-10 users", "50-100 users", "Over 200 users"],
+      "correct_answer": 1,
+      "explanation": "Usability testing typically involves 5-10 users with tasks usually around 30 minutes. This is in contrast to experiments, which require many participants for statistical validation. The smaller number is sufficient because usability testing aims to identify design issues rather than produce generalizable scientific findings."
+    },
+    {
+      "question": "What is the primary goal of usability testing compared to experiments?",
+      "options": [
+        "To discover new scientific knowledge",
+        "To validate results statistically",
+        "To improve products",
+        "To publish findings in scientific journals"
+      ],
+      "correct_answer": 2,
+      "explanation": "The primary goal of usability testing is to improve products by checking that the system is usable by the intended user population. Experiments, in contrast, aim to discover new knowledge by testing hypotheses and investigating relationships between variables, with results validated statistically."
+    },
+    {
+      "question": "In an experiment, which variable is manipulated by the researcher?",
+      "options": [
+        "Dependent variable",
+        "Independent variable",
+        "Control variable",
+        "Confounding variable"
+      ],
+      "correct_answer": 1,
+      "explanation": "The independent variable is manipulated by the researcher to observe its effect on the dependent variable. The dependent variable is the one that is influenced by changes in the independent variable. Typical experimental designs have one or two independent variables."
+    },
+    {
+      "question": "In a between-subjects experimental design, what is a key disadvantage?",
+      "options": [
+        "Counter-balancing is needed due to ordering effects",
+        "Individual differences between participants can be a problem",
+        "It requires participants to appear in all conditions",
+        "Perfect matching on all differences cannot be guaranteed"
+      ],
+      "correct_answer": 1,
+      "explanation": "In a between-subjects design, different participants are assigned to different conditions. The key disadvantage is that individual differences between participants may affect results, since each person only experiences one condition. The advantage is that there are no order effects."
+    },
+    {
+      "question": "Which experimental design requires counter-balancing to address ordering effects?",
+      "options": [
+        "Between-subjects design",
+        "Within-subjects design",
+        "Pairwise (matched participants) design",
+        "All experimental designs equally"
+      ],
+      "correct_answer": 1,
+      "explanation": "Within-subjects design requires counter-balancing because all participants appear in both conditions, meaning the order in which they experience conditions could affect results (ordering effect). Its advantages are requiring fewer individuals and eliminating individual differences as a confound."
+    },
+    {
+      "question": "Which factors should be considered when deciding which data gathering method to use?",
+      "options": [
+        "Only the focus of the study and time available",
+        "Focus of the study, participants involved, nature of technique, resources available, and time available",
+        "Only the number of participants and budget",
+        "Only the nature of the technique and resources available"
+      ],
+      "correct_answer": 1,
+      "explanation": "When choosing a data gathering method, five key factors should be considered: the focus of the study, participants involved, nature of the technique(s), resources available, and time available. All of these factors together inform the most appropriate method selection."
+    }
+  ]
+}

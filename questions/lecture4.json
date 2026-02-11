@@ -1,0 +1,207 @@
+{
+  "lecture": "Lecture 4 - Data Analysis",
+  "topic": "HCI Data Analysis: Qualitative Analysis, Thematic Analysis, Quantitative Analysis, and Inferential Statistics",
+  "questions": [
+    {
+      "question": "Which of the following best describes quantitative data?",
+      "options": [
+        "Data expressed as themes, patterns, or stories",
+        "Data expressed as numbers",
+        "Data that is difficult to measure sensibly as numbers",
+        "Data collected only through interviews"
+      ],
+      "correct_answer": 1,
+      "explanation": "Quantitative data is expressed as numbers. Quantitative analysis uses numerical methods to ascertain size, magnitude, and amount. In contrast, qualitative data is difficult to measure sensibly as numbers and is analyzed through themes, patterns, or stories."
+    },
+    {
+      "question": "What is the initial processing step for interview data?",
+      "options": [
+        "Clean up data and filter into different data sets",
+        "Synchronization between data recordings",
+        "Transcription of recordings and expansion of notes",
+        "Statistical analysis of responses"
+      ],
+      "correct_answer": 2,
+      "explanation": "For interviews, the initial processing steps are transcription of recordings and expansion of notes. Cleaning up data and filtering into data sets is the initial step for questionnaires, while synchronization between recordings is for observation data."
+    },
+    {
+      "question": "In qualitative data analysis, identifying themes that emerge from data is an example of:",
+      "options": [
+        "Deductive analysis",
+        "Statistical analysis",
+        "Inductive analysis",
+        "Content analysis"
+      ],
+      "correct_answer": 2,
+      "explanation": "Identifying themes that are emergent from the data is an example of inductive analysis. Deductive analysis, by contrast, involves categorizing data using a pre-specified categorization scheme. In practice, both inductive and deductive approaches are often combined."
+    },
+    {
+      "question": "What does categorizing data using a pre-specified categorization scheme represent?",
+      "options": [
+        "Inductive analysis",
+        "Deductive analysis",
+        "Grounded theory",
+        "Discourse analysis"
+      ],
+      "correct_answer": 1,
+      "explanation": "Using a pre-specified categorization scheme to categorize data is deductive analysis. This is contrasted with inductive analysis, where themes emerge from the data itself. Both approaches can be combined in qualitative research."
+    },
+    {
+      "question": "What is Cohen's kappa used to measure?",
+      "options": [
+        "The statistical significance of quantitative results",
+        "Inter-coder reliability between multiple coders",
+        "The mean of a dataset",
+        "The normality of a data distribution"
+      ],
+      "correct_answer": 1,
+      "explanation": "Cohen's kappa is used to measure inter-coder reliability — the degree of agreement between multiple coders in qualitative analysis. A kappa value of 0.80–0.90 indicates strong agreement, while values above 0.90 indicate almost perfect agreement."
+    },
+    {
+      "question": "According to the Cohen's kappa scale, a value of 0.45 indicates what level of agreement?",
+      "options": ["None", "Minimal", "Weak", "Moderate"],
+      "correct_answer": 2,
+      "explanation": "A Cohen's kappa value of 0.40–0.59 indicates weak agreement. The scale ranges from 0–0.20 (none), 0.21–0.39 (minimal), 0.40–0.59 (weak), 0.60–0.79 (moderate), 0.80–0.90 (strong), and above 0.90 (almost perfect)."
+    },
+    {
+      "question": "In thematic analysis, what is a 'code'?",
+      "options": [
+        "A programming script used to analyze data",
+        "A word or phrase that acts as a label for a segment of text",
+        "A numerical value assigned to each participant",
+        "A statistical test used to validate themes"
+      ],
+      "correct_answer": 1,
+      "explanation": "In thematic analysis, a code is a word or phrase that acts as a label for a segment of text. Codes can be descriptive (describing what the data is about) or interpretive (adding the researcher's analytical reading of the data). Codes are grouped together to form themes."
+    },
+    {
+      "question": "What is the difference between descriptive codes and interpretive codes?",
+      "options": [
+        "Descriptive codes are numerical; interpretive codes are textual",
+        "Descriptive codes describe what the data is about; interpretive codes add the researcher's analytical lens",
+        "Descriptive codes are used in quantitative analysis; interpretive codes in qualitative",
+        "There is no difference; they are interchangeable terms"
+      ],
+      "correct_answer": 1,
+      "explanation": "Descriptive codes describe what the data is about, while interpretive codes are an analytical reading of the data that adds the researcher's interpretive lens. Both types are used in qualitative coding to label segments of text."
+    },
+    {
+      "question": "Which analytical framework focuses on how words are used to convey implicit or hidden meanings in texts?",
+      "options": [
+        "Conversation analysis",
+        "Content analysis",
+        "Discourse analysis",
+        "Interaction analysis"
+      ],
+      "correct_answer": 2,
+      "explanation": "Discourse analysis focuses on how words are used to convey meaning, looking for implicit or hidden meanings in texts. It operates at the word, phrase, or sentence level. Conversation analysis focuses on how conversations are conducted, while content analysis examines how often something is featured or spoken about."
+    },
+    {
+      "question": "Content analysis focuses on:",
+      "options": [
+        "How conversations are managed and progress",
+        "How often something is featured or spoken about in a text",
+        "Constructing a theory grounded in empirical data",
+        "Verbal and non-verbal interactions between people and artifacts"
+      ],
+      "correct_answer": 1,
+      "explanation": "Content analysis focuses on how often something is featured or spoken about in any form of text, including written pieces, video, audio recordings, or photographs. Its expected outcome is determining the frequency of items appearing in a text, ranging from words to feelings to attitudes."
+    },
+    {
+      "question": "Which of the following is NOT one of the three things you can do with quantitative data?",
+      "options": ["Describe it", "Compare it", "Interpret it", "Transcribe it"],
+      "correct_answer": 3,
+      "explanation": "The three things you can do with quantitative data are describe it (to allow reasoning about implications), compare it (with control or other experimental conditions), and interpret it (assess plausibility and reasons). Transcription is a pre-analysis step for qualitative data like interview recordings."
+    },
+    {
+      "question": "Which measure of central tendency is defined as the middle value of data when ranked?",
+      "options": ["Mean", "Median", "Mode", "Standard deviation"],
+      "correct_answer": 1,
+      "explanation": "The median is the middle value of data when ranked in order. The mean is calculated by adding up all values and dividing by the number of data points, while the mode is the figure that appears most often. Standard deviation is a measure of spread, not central tendency."
+    },
+    {
+      "question": "Which type of descriptive graph is best for answering 'How are the results distributed?'",
+      "options": ["Bar graph", "Scatterplot", "Histogram", "Heatmap"],
+      "correct_answer": 2,
+      "explanation": "Histograms are used to show how results are distributed, revealing patterns such as symmetric, skewed right, skewed left, bimodal, or multimodal distributions. Bar graphs compare categories, scatterplots show relationships between two variables, and heatmaps visualize data density."
+    },
+    {
+      "question": "A boxplot is most useful for answering which question?",
+      "options": [
+        "How are two variables related?",
+        "How do multiple distributions compare?",
+        "What is the trend over time?",
+        "How often does each category appear?"
+      ],
+      "correct_answer": 1,
+      "explanation": "Boxplots are most useful for comparing multiple distributions. They display the median, lower and upper quartiles, whiskers, and outliers, making it easy to compare the spread and central tendency of different groups side by side."
+    },
+    {
+      "question": "What does the null hypothesis (H0) typically state?",
+      "options": [
+        "There is a significant difference between groups",
+        "There is no difference between groups",
+        "The independent variable causes the dependent variable to change",
+        "The sample is representative of the population"
+      ],
+      "correct_answer": 1,
+      "explanation": "The null hypothesis (H0) states that there is no difference between groups or conditions. If statistical testing yields p < 0.05, we reject the null hypothesis in favor of the alternate hypothesis, which states there is a significant difference in the dataset."
+    },
+    {
+      "question": "In inferential statistics, what does it mean when p < 0.05?",
+      "options": [
+        "The null hypothesis is confirmed",
+        "The results are not statistically significant",
+        "We reject the null hypothesis — the difference is statistically significant",
+        "There is a 95% chance the null hypothesis is true"
+      ],
+      "correct_answer": 2,
+      "explanation": "When p < 0.05, we reject the null hypothesis, meaning there is a statistically significant difference in the dataset. This threshold indicates that there is less than a 5% probability that the observed difference occurred by chance alone."
+    },
+    {
+      "question": "Which type of variable is 'device type' (e.g., laptop vs. tablet)?",
+      "options": ["Continuous", "Ordinal", "Nominal/Categorical", "Interval"],
+      "correct_answer": 2,
+      "explanation": "Device type is a nominal/categorical variable because it represents categories without any inherent order. Ordinal variables have a natural order (e.g., Likert-scale responses), while continuous variables can take any numerical value (e.g., time, number of errors)."
+    },
+    {
+      "question": "Which statistical test is appropriate for comparing two groups in a between-subjects design when normality is assumed?",
+      "options": ["Paired t-test", "Unpaired t-test", "ANOVA", "Friedman test"],
+      "correct_answer": 1,
+      "explanation": "An unpaired t-test is used for comparing two groups in a between-subjects design when the data is interval/ratio and normality is assumed. A paired t-test is used for within-subjects designs with two groups. ANOVA is used when there are more than two groups."
+    },
+    {
+      "question": "When comparing more than two groups in a within-subjects design with ordinal data, which test should be used?",
+      "options": [
+        "Kruskal-Wallis test",
+        "Repeated Measures ANOVA",
+        "Friedman test",
+        "Chi-square test"
+      ],
+      "correct_answer": 2,
+      "explanation": "The Friedman test is used for within-subjects designs with more than two groups when the data is ordinal or when normality is not assumed. Kruskal-Wallis is for between-subjects with >2 groups, Repeated Measures ANOVA is for within-subjects with normality assumed, and Chi-square is for dichotomous/binomial between-subjects data."
+    },
+    {
+      "question": "After rejecting the null hypothesis with an omnibus test (e.g., Friedman test), what is the next step to determine which specific groups differ?",
+      "options": [
+        "Run the same test again with different data",
+        "Conduct post hoc pairwise comparisons",
+        "Accept the alternative hypothesis without further analysis",
+        "Increase the sample size and repeat the experiment"
+      ],
+      "correct_answer": 1,
+      "explanation": "After rejecting the null hypothesis with an omnibus test like the Friedman test, post hoc pairwise comparisons (e.g., Bonferroni-corrected Wilcoxon tests) are needed to determine which specific pairs of groups differ significantly. The omnibus test only tells us that at least one difference exists, not where it is."
+    },
+    {
+      "question": "Which qualitative analysis tools are mentioned in the lecture for supporting data analysis?",
+      "options": [
+        "SPSS, R, and Excel",
+        "Nvivo, Atlas.ti, and Dedoose",
+        "Tableau, Power BI, and D3",
+        "Python, MATLAB, and SAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "The lecture mentions Nvivo, Atlas.ti, and Dedoose as tools that support qualitative data analysis. These tools benefit researchers by enabling categorization and theme-based analysis, as well as quantitative analysis of text-based data."
+    }
+  ]
+}
